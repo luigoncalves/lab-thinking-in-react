@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  width: 100%;
 }
 
 .App-logo {
@@ -35,4 +36,37 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.black {
+  color: black;
+  padding: 5px, 1000px;
+}
+
+.red {
+  color: red;
+  padding: 5px, 1000px;
+}
+
+.table {
+  margin-top: 50px;
+  padding: 10px 200px;
+}
+
+.header {
+  background-color: goldenrod;
+}
+
+.lines {
+  line-height: 50px;
+  padding: 5px, 1000px;
+  background-color: antiquewhite;
 }
